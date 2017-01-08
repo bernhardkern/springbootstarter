@@ -5,6 +5,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
+@SuppressWarnings({"WeakerAccess", "unused"})
 @Entity
 @Table(name = "contacts")
 @Getter
